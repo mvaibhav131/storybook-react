@@ -1,4 +1,4 @@
-# Next.js Storybooks
+# Next.js Storybooks.
 
 The application uses GitHub authentication, therefore you must set it up and fill these environment variables are to run this application correctly:
 

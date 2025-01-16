@@ -23,7 +23,7 @@ You are now ready to run the application.
 ### Setting up Prisma database
 
 This application uses Prisma with SQLite. You need to set it up before running:
-use NPM or PNPM to installing packages
+### use NPM or PNPM to installing packages
 
 1. `pnpm install`
 2. `pnpm prisma:setup`

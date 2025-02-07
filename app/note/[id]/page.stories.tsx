@@ -1,15 +1,15 @@
-import { type Meta, type StoryObj } from '@storybook/react'
-import { cookies } from '@storybook/nextjs/headers.mock'
-import { http } from 'msw'
-import { expect, userEvent, waitFor, within } from '@storybook/test'
-import Page from './page'
-import { db, initializeDB } from '#lib/db.mock'
-import { createUserCookie, userCookieKey } from '#lib/session'
-import { PageDecorator } from '#.storybook/decorators'
-import { login } from '#app/actions.mock'
-import * as auth from '#app/auth/route'
-import { expectRedirect } from '#lib/test-utils'
-import { getRouter } from '@storybook/nextjs/navigation.mock'
+import { type Meta, type StoryObj } from '@storybook/react';
+import { cookies } from '@storybook/nextjs/headers.mock';
+import { http } from 'msw';
+import { expect, userEvent, waitFor, within } from '@storybook/test';
+import Page from './page';
+import { db, initializeDB } from '#lib/db.mock';
+import { createUserCookie, userCookieKey } from '#lib/session';
+import { PageDecorator } from '#.storybook/decorators';
+import { login } from '#app/actions.mock';
+import * as auth from '#app/auth/route';
+import { expectRedirect } from '#lib/test-utils';
+import { getRouter } from '@storybook/nextjs/navigation.mock';
 
 const meta = {
   component: Page,

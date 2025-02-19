@@ -7,7 +7,7 @@ OAUTH_CLIENT_KEY='github oauth app id'
 OAUTH_CLIENT_SECRET='github oauth app secret'
 ```
 
-There is a `.env.local.example` file with a base for you. Rename it to `.env.local` and add the correct values for the GitHub tokens. You can follow [instructions here](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app) on how to do that, or do the following:
+There is a `.env.local.example` file with a base for you. Rename it to `.env.local` and add the correct values for the GitHub tokens. You can follow [instructions here](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app) on how to do that, or do the following:-
 
 1 - Navigate to https://github.com/settings/developers
 2 - Click on New OAuth App

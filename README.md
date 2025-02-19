@@ -1,6 +1,6 @@
 # Next.js Storybooks.
 
-The application uses GitHub authentication, therefore you must set it up and fill these environment variables are to run this application correctly:
+The application uses GitHub authentication, therefore you must set it up and fill these environment variables are to run this application correctly:-
 
 ```bash
 OAUTH_CLIENT_KEY='github oauth app id'
